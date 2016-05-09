@@ -1,0 +1,27 @@
+=== Run information ===
+
+Scheme:       weka.associations.Tertius -K 10 -F 0.0 -N 1.0 -L 4 -G 0 -c 0 -I 0 -P 0
+Relation:     dados-2013-weka.filters.unsupervised.attribute.Remove-R1-7,9,11
+Instances:    2219880
+Attributes:   2
+              REDACAO_NOMINAL
+              MAE
+=== Associator model (full training set) ===
+
+
+Tertius
+=======
+
+ 1. /* 0,031078 0,097496 */ MAE = SUPERIOR_COMP ==> REDACAO_NOMINAL = D
+ 2. /* 0,016648 0,029445 */ MAE = NAO_SABE ==> REDACAO_NOMINAL = G
+ 3. /* 0,011323 0,084750 */ MAE = SUPERIOR_COMP ==> REDACAO_NOMINAL = E
+ 4. /* 0,008869 0,035324 */ MAE = NAO_SABE ==> REDACAO_NOMINAL = H
+ 5. /* 0,006581 0,052421 */ MAE = MEDIO_INC ==> REDACAO_NOMINAL = F
+ 6. /* 0,006534 0,036602 */ MAE = NAO_SABE ==> REDACAO_NOMINAL = J
+ 7. /* 0,005777 0,117377 */ MAE = SUPERIOR_COMP ==> REDACAO_NOMINAL = A
+ 8. /* 0,005701 0,027960 */ MAE = NAO_SABE ==> REDACAO_NOMINAL = F
+ 9. /* 0,003703 0,051722 */ MAE = MEDIO_INC ==> REDACAO_NOMINAL = E
+10. /* 0,002639 0,037751 */ MAE = NAO_SABE ==> REDACAO_NOMINAL = I
+
+Number of hypotheses considered: 68
+Number of hypotheses explored: 59

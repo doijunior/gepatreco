@@ -1,0 +1,72 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     dados-2013-weka.filters.unsupervised.attribute.Remove-R1-7,11-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    2219880
+Attributes:   2
+              REDACAO_NOMINAL
+              PAI
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+REDACAO_NOMINAL = G: PRIMARIO (384732.0/274046.0)
+REDACAO_NOMINAL = H: PRIMARIO (107929.0/72317.0)
+REDACAO_NOMINAL = F: PRIMARIO (564539.0/424445.0)
+REDACAO_NOMINAL = D: MEDIO_COMP (282940.0/209523.0)
+REDACAO_NOMINAL = E: MEDIO_COMP (602124.0/456374.0)
+REDACAO_NOMINAL = C: MEDIO_COMP (140722.0/104301.0)
+REDACAO_NOMINAL = B: SUPERIOR_COMP (43181.0/32573.0)
+REDACAO_NOMINAL = J: PRIMARIO (54629.0/36684.0)
+REDACAO_NOMINAL = I: PRIMARIO (23413.0/14851.0)
+REDACAO_NOMINAL = A: SUPERIOR_COMP (15671.0/11227.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0.46 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances      583539               26.287  %
+Incorrectly Classified Instances   1636341               73.713  %
+Kappa statistic                          0.054 
+Mean absolute error                      0.1849
+Root mean squared error                  0.3041
+Relative absolute error                 98.7503 %
+Root relative squared error             99.3732 %
+Total Number of Instances          2219880     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.524     0.445      0.249     0.524     0.338      0.556    MEDIO_COMP
+                 0.617     0.48       0.276     0.617     0.381      0.594    PRIMARIO
+                 0.071     0.022      0.256     0.071     0.111      0.653    SUPERIOR_COMP
+                 0         0          0         0         0          0.543    GINASIO
+                 0         0          0         0         0          0.578    NAO_SABE
+                 0         0          0         0         0          0.648    NAO_ESTUDOU
+                 0         0          0         0         0          0.519    MEDIO_INC
+                 0         0          0         0         0          0.694    POS_GRADUCAO
+                 0         0          0         0         0          0.608    SUPERIOR_INC
+Weighted Avg.    0.263     0.209      0.142     0.263     0.172      0.584
+
+=== Confusion Matrix ===
+
+      a      b      c      d      e      f      g      h      i   <-- classified as
+ 255588 217844  14056      0      0      0      0      0      0 |      a = MEDIO_COMP
+ 189489 312899   4692      0      0      0      0      0      0 |      b = PRIMARIO
+ 131207  65937  15052      0      0      0      0      0      0 |      c = SUPERIOR_COMP
+ 160938 214284   5183      0      0      0      0      0      0 |      d = GINASIO
+  78979 129696   2194      0      0      0      0      0      0 |      e = NAO_SABE
+  27654  69500    428      0      0      0      0      0      0 |      f = NAO_ESTUDOU
+  67581  70076   3083      0      0      0      0      0      0 |      g = MEDIO_INC
+  63150  23968   9733      0      0      0      0      0      0 |      h = POS_GRADUCAO
+  51200  31038   4431      0      0      0      0      0      0 |      i = SUPERIOR_INC
+

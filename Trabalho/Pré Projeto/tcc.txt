@@ -1,0 +1,24 @@
+-Objetivos
+
+* Implementar e aplicar técnicas de mineração de dados para detectar padrões em base de dados educacionais. Buscando identificar o que torna um determinado perfil de aluno mais propenso a melhores resultados.
+
+-Objetivos especificos
+
+* Estudar ferramentas de mineração de dados que existem no mercado e entender sua utilização e tentar utiliza-las na pesquisa.
+
+* Implementar o algoritmo de árvore de decisão na busca de entender melhor o funcionamento da detecção de padrões e complexidade algoritmica.
+
+* Buscar identificar melhor quais dados são realmente pertinentes e quais suas relações.
+
+* Criar uma pequena base de dados para uma analise mais especifica.
+
+
+-Justificativa
+
+O governo está constantemente coletando dados dos setores de saúde, educação, segurança e publicando esses dados em um site público onde todos podem acessa-los. Esses dados podem conter informações uteis para o governo e para o mercado mas é necessário tratar e identificar quais informações são realmente uteis, normalmente utilizando o advento da mineração de dados. Normalmente essas informações são tidas como ocultas, pois são de dificil detecção à analise humana por se tratar de uma grande quantidade de informação.
+
+Existem várias base de dados relacionadas ao desempenho educacional e minha proposta é identificar as caracteristicas que levam um aluno a ter um bom ou mau  desempenho escolar. Dessa forma seria possivel identificar as possiveis causas de um mau desempenho e realizar alguma forma de intervenção.
+
+-Problema
+
+-Conclusão
